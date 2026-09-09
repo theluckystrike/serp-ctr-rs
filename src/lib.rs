@@ -34,6 +34,11 @@
 //!
 //! Built for the pipeline behind <https://toolsthatrank.com/>, which verifies a figure
 //! against its source before it ships one.
+//!
+//! One caution on reading [`ctr`] at low volume: a page with zero clicks on a few dozen
+//! impressions has not measured its CTR yet. How click coverage rises with impressions,
+//! and where zero clicks stops being noise, is measured across 34 properties at
+//! <https://toolsthatrank.com/zero-click-pages/>.
 
 #![forbid(unsafe_code)]
 #![deny(missing_docs)]

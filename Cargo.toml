@@ -1,12 +1,12 @@
 [package]
 name = "serp-ctr"
-version = "0.1.0"
+version = "0.1.2"
 edition = "2021"
 rust-version = "1.63"
 description = "Search-console arithmetic: click-through rate, impression-weighted average position, and click projection against a caller-supplied CTR-by-position curve."
 license = "MIT OR Apache-2.0"
 homepage = "https://toolsthatrank.com/"
-documentation = "https://docs.rs/serp-ctr"
+documentation = "https://toolsthatrank.com/ctr-by-position/"
 repository = "https://github.com/theluckystrike/serp-ctr-rs"
 readme = "README.md"
 keywords = ["seo", "serp", "ctr", "search-console", "analytics"]
